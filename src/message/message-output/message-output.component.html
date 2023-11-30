@@ -1,0 +1,7 @@
+<!-- Adapter ici si utilisation en mode Reactive -->
+<h5>Messages ({{ messages.length }})</h5>
+<div class="messages">
+  <div *ngFor="let msg of messageService.message$ | async">
+    {{ msg }}
+  </div>
+</div>

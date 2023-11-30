@@ -1,0 +1,15 @@
+
+.messages {
+  display: flex;
+  background: #efefef;
+  padding: 10px;
+  border-radius: 10px;
+  flex-direction: column-reverse;
+  gap: 10px;
+  height: 200px;
+  overflow-y: auto;
+}
+
+h5 {
+  margin: 0;
+}
